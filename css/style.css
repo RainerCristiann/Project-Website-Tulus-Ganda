@@ -1,0 +1,350 @@
+:root {
+     --pr-color : #264AC8
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+/* Navbar Style */
+.navbar {
+    z-index: 3;
+    position: fixed;
+}
+
+/* Navbar Color */
+
+.nav-color {
+    background-color: #D9D9D9;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-light {
+    transition: all ease-in 0.3s;
+}
+
+* {
+    z-index: 2;
+}
+
+.img-hero {
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: Letter Kids;
+    font-size: 25px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+/* Hero Section Style */
+#hero {
+    background : linear-gradient(160deg, var(--pr-color), #FFFFFF);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero {
+    height: 90%;
+}
+
+.hero-tagline h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+#hero a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*Profil Section*/
+#profil {
+    padding: 100px 0;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/*Course Section*/
+
+h3 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.card-course {
+    width: 100%;
+    height: 232px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+
+    transition: all .2s ease-in;
+}
+
+.circle-icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+
+    transition: all .1s ease-in;
+}
+
+.card-course h4 {
+    color: #000000;
+    font-size: 24px;
+
+    transition: all .2s ease-in;
+}
+
+.card-course p {
+    color: #000000;
+    font-size: 14px;
+
+    transition: all .3s ease-in;
+}
+
+/* Hover */
+
+.card-course:hover {
+    width: 100%;
+    height: 232px;
+    border-radius: 10px;
+    background-color: var(--pr-color);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+
+    transition: all .2s ease-in;
+}
+
+.card-course:hover .circle-icon {
+    background-color: #FFFFFF;
+    transition: all .2s ease-in;
+}
+
+.card-course:hover h4 {
+    color: #FFFFFF;
+    font-size: 24px;
+
+    transition: all .2s ease-in;
+}
+
+.card-course:hover p {
+    color: #FFFFFF;
+    font-size: 14px;
+
+    transition: all .2s ease-in;
+}
+
+/* Facility Section */
+
+#facility {
+    padding: 50px 0;
+}
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+  }
+  .wrapper i {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: var(--pr-color);
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+  }
+  .wrapper i:active{
+    transform: translateY(-50%) scale(0.85);
+  }
+  .wrapper i:first-child{
+    left: -60px;
+  }
+  .wrapper i:last-child{
+    right: -60px;
+  }
+  .wrapper .carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  .carousel.no-transition {
+    scroll-behavior: auto;
+  }
+  .carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+  }
+  .carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+  }
+  .carousel :where(.card, .img) {
+    padding-top: 5px;
+    align-items: center;
+  }
+  .carousel .card {
+    scroll-snap-align: start;
+    height: 400px;
+    list-style: none;
+    background: #F5F5F5;
+    cursor: pointer;
+    padding-bottom: 15px;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  .card .img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .carousel .card h2 {
+    font-weight: 500;
+    font-size: 1.56rem;
+    margin: 30px 0 5px;
+  }
+
+/* Event Section */
+
+h5 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.card {
+    height: 460px;
+    width: 95%;
+}
+
+.card-body h6 {
+    color: #000000;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.card:hover {
+    background-color: var(--pr-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body h6 {
+    color: #FFFFFF;
+    transition: all ease-in-out .3s;
+}
+
+/* Contact Section */
+
+#contact {
+    background-image: url(../Assets/Img/gedung\ tulus\ ganda.png);
+    margin-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+
+#contact h7 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.kontak {
+    margin: 60px 0 60px 0;
+}
+
+.kontak a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background: #D9D9D9;
+}
+
+.copyright {
+    bottom: 1%;
+    color: #000000;
+}
+
+footer a {
+    font-family: Letter Kids;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--pr-color);
+    text-decoration: none;
+}
+
+.footer a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 14px;
+    color: #000000;
+}

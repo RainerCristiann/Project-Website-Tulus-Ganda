@@ -1,0 +1,54 @@
+@media screen and (max-width : 922px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+    }
+}
+
+@media screen and (max-width : 576px) {
+    .hero-tagline h1 {
+        line-height: 52px;
+    }
+
+    .img-hero {
+        width: 62%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 34px;
+    }
+
+    .card-course {
+        margin: 15px 0;
+    }
+
+    #event {
+        margin-top: 500px;
+    }
+
+    h5 {
+        font-size: 34px;
+    }
+
+    h7 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+    }
+}
+
+@media screen and (max-width : 350px) {
+    
+}
+

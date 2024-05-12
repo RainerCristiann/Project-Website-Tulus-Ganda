@@ -1,0 +1,85 @@
+/* Navbar Style */
+.navbar {
+  z-index: 3;
+  position: fixed;
+}
+
+/* Navbar Color */
+
+.nav-color {
+  background-color: #D9D9D9;
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-light {
+  transition: all ease-in 0.3s;
+}
+
+* {
+  z-index: 2;
+}
+
+.img-hero {
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: Letter Kids;
+  font-size: 25px;
+}
+
+.nav-link {
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  background: #FFFFFF;
+}
+
+.container {
+  flex: 1;
+}
+
+.whatsapp {
+  text-align: right;
+  position: relative;
+}
+
+h1 {
+  padding: 100px 0;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.card {
+  color: #FFFFFF;
+}
+
+h5 {
+  font-size: 18px;
+  color: #000000;
+}
+
+p {
+  font-size: 14px;
+  color: #000000;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
