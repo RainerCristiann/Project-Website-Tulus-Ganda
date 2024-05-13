@@ -4,7 +4,7 @@
     }
 }
 
-@media screen and (max-width : 576px) {
+@media screen and (max-width : 476px) {
     .hero-tagline h1 {
         line-height: 52px;
     }
