@@ -4,7 +4,7 @@
     }
 }
 
-@media screen and (max-width : 476px) {
+@media screen and (max-width : 576px) {
     .hero-tagline h1 {
         line-height: 52px;
     }
@@ -46,6 +46,7 @@
     .wrapper .carousel {
         grid-auto-columns: 100%;
     }
+    
 }
 
 @media screen and (max-width : 350px) {
