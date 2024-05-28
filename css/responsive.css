@@ -11,7 +11,7 @@
 
     .img-hero {
         width: 80%;
-        height: auto;
+        height: relative;
     }
 
     h2 {
