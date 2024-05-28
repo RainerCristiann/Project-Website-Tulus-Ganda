@@ -9,6 +9,11 @@
         line-height: 52px;
     }
 
+    .img-hero {
+        width: 62%;
+        height: auto;
+    }
+
     h2 {
         font-size: 34px;
     }
