@@ -49,6 +49,13 @@
 }
 
 @media screen and (max-width : 350px) {
-    
+    .img-hero {
+        width: 60%;
+        height: relative;
+    }
+
+    .card .img img {
+        padding: 7%;
+    }
 }
 
