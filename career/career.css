@@ -95,3 +95,11 @@ p {
     top: 95%;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .whatsapp {
+    position: fixed;
+    left: 50%;
+    top: 89%;
+  }
+}
