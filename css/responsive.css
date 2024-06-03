@@ -56,6 +56,7 @@
 
     .card .img img {
         padding: 7%;
+        width: 100%;
     }
 }
 
