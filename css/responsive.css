@@ -57,5 +57,9 @@
     .card .img img {
         padding: 7%;
     }
+
+    .wrapper.carousel .card {
+        width: 18rem;
+    }
 }
 
