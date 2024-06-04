@@ -56,10 +56,13 @@
 
     .card .img img {
         padding: 7%;
+        display: flex;
+        height: 200px;
+        width: 200px;
     }
 
-    .wrapper.carousel .card {
-        width: 18rem;
+    .carousel.card {
+        display: flex;
     }
 }
 
