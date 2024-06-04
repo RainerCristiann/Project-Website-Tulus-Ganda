@@ -54,10 +54,10 @@
         height: relative;
     }
 
-    .card .img img {
-        height: 200px;
-        width: 200px;
-        object-fit: contain;
+    .wrapper .carousel .card .img img {
+        height: 250px;
+        width: 250px;
+        object-fit: fill;
     }
 
     .carousel.card {
