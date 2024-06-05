@@ -48,6 +48,22 @@
     }
 }
 
+@media screen and (max-width :380px) {
+    .wrapper .carousel .card .img img {
+        height: 285px;
+        width: 285px;
+        object-fit: fill;
+    }
+}
+
+@media screen and (max-width :360px) {
+    .wrapper .carousel .card .img img {
+        height: 260px;
+        width: 260px;
+        object-fit: fill;
+    }
+}
+
 @media screen and (max-width : 350px) {
     .img-hero {
         width: 60%;
@@ -62,14 +78,6 @@
 
     .carousel.card {
         display: flex;
-    }
-}
-
-@media screen and (max-width :380px) {
-    .wrapper .carousel .card .img img {
-        height: 285px;
-        width: 285px;
-        object-fit: fill;
     }
 }
 
