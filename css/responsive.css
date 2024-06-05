@@ -48,7 +48,7 @@
     }
 }
 
-@media screen and (max-width :380px) {
+/*@media screen and (max-width :380px) {
     .wrapper .carousel .card .img img {
         height: 285px;
         width: 285px;
@@ -62,9 +62,9 @@
         width: 260px;
         object-fit: fill;
     }
-}
+}*/
 
-@media screen and (max-width : 350px) {
+@media screen and (max-width : 360px) {
     .img-hero {
         width: 60%;
         height: relative;
