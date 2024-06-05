@@ -65,3 +65,11 @@
     }
 }
 
+@media screen and (max-width :380px) {
+    .wrapper .carousel .card .img img {
+        height: 285px;
+        width: 285px;
+        object-fit: fill;
+    }
+}
+
