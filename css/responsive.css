@@ -79,5 +79,17 @@
     .carousel.card {
         display: flex;
     }
+
+    .whatsapp {
+        background-color: transparent;
+    }
+
+    .whatsapp span {
+        display: none;
+    }
+
+    .whatsapp i {
+        right: 0;
+    }
 }
 
