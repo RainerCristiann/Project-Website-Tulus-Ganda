@@ -357,6 +357,7 @@ footer p {
     text-align: center;
 }
 
+
 .whatsapp {
     position: fixed;
     right: 10px;
@@ -371,17 +372,17 @@ footer p {
     padding: 0 5px;
 }
 
-.whatsapp i {
+.whatsapp img {
     font-size: 30px;
-    padding: 10px 10px;
     background-color: #25D366;
-    border-radius: 50%;
+    border-radius: 50px;
+    padding: 2px;
     height: 40px;
     width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 131px;
+    right: 130px;
     color: #FFFFFF;
 }
