@@ -103,3 +103,11 @@ p {
     top: 110%;
   }
 }
+
+@media screen and (max-height: 690px) {
+  .whatsapp {
+    position: absolute;
+    left: 50%;
+    top: 110%;
+  }
+}
