@@ -102,7 +102,7 @@ p {
   .whatsapp {
     position: absolute;
     left: 50%;
-    top: 110%;
+    top: 105%;
     display: flex;
   }
 }
