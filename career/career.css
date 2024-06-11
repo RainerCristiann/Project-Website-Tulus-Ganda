@@ -77,6 +77,7 @@ p {
   top: 105%;
   position: absolute;
   transform: translateY(-50%);
+  display: flex;
 }
 
 @media screen and (max-width: 900px) {
@@ -93,6 +94,7 @@ p {
   .whatsapp {
     right: 45%;
     top: 95%;
+    display: flex;
   }
 }
 
@@ -101,13 +103,6 @@ p {
     position: absolute;
     left: 50%;
     top: 110%;
-  }
-}
-
-@media screen and (max-height: 690px) {
-  .whatsapp {
-    position: absolute;
-    left: 50%;
-    top: 110%;
+    display: flex;
   }
 }
